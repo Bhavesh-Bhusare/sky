@@ -4,7 +4,7 @@ import CountdownPage from "@/components/Countdown";
 import confetti from "canvas-confetti";
 import { useState } from "react";
 
-const birthdayDate = new Date("2025-08-07T00:00:00");
+const birthdayDate = new Date("2025-08-08T00:00:00");
 
 export default function BirthdayPage() {
   const [isBirthday, setIsBirthday] = useState(false);
