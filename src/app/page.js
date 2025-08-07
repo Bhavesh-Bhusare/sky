@@ -8,6 +8,7 @@ const birthdayDate = new Date("2025-08-08T00:00:00");
 
 export default function BirthdayPage() {
   const [isBirthday, setIsBirthday] = useState(false);
+
   const handleClick = (e) => {
     const x = e.clientX / window.innerWidth;
     const y = e.clientY / window.innerHeight;
